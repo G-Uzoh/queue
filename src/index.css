@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+  background: #938693;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background: white;
+  color: #333;
+  margin-top: 40px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px;
+  width: 350px;
+}
+
+button {
+  background: lightblue;
+  border: none;
+  border-radius: 3px;
+  box-shadow: none;
+  padding: 5px;
+  margin: 10px 5px;
+}
+
+.btn {
+  margin: 10px 0;
+}
+
+.queue-items {
+  margin: 10px;
+}
